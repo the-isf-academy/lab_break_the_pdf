@@ -18,3 +18,7 @@
 - Encryption key hint: look carefully at the mission
 - What Python libraries might exist to help? 
 
+---
+
+**Be sure to run the poetry shell:**
+`poetry shell` 
