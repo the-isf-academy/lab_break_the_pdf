@@ -1,6 +1,5 @@
 from adjectives import adjective_dictionary
 from animals import animal_list
-from time import time
 from PyPDF2 import PdfFileReader
 
 
@@ -9,7 +8,5 @@ from PyPDF2 import PdfFileReader
 
 file = PdfFileReader('encrypted_pdf.pdf')   
 
-if file.decrypt('password') == 1:                
-    print('password successful')
-else:
-    print('password unsuccesful')
+file.decrypt('password')   # returns 0 or 1
+
