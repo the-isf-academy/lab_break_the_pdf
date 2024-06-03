@@ -1,6 +1,4 @@
-animals = {
-    "animals":
-      [
+animal_list = [
         "aardvark",
         "alligator",
         "alpaca",
@@ -135,5 +133,4 @@ animals = {
         "woodchuck",
         "yak",
         "zebra"
-      ]
-  }
+        ]

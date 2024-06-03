@@ -1,4 +1,4 @@
-adjectives = {
+adjective_dictionary = {
     "description": "A list of English adjectives.",
     "adjs":
       [ "aerosol",
